@@ -1,0 +1,43 @@
+#VRML_SIM R2023a utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/balls/protos/Ball.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/solids/protos/SolidBox.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.2270787362558843 -0.07720264089299166 0.9708115160934065 3.779205304201677
+  position 1.884117612265027 1.5017923895262633 1.4790201657319875
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  contactMaterial "wood"
+  floorTileSize 0.2 0.2
+}
+SolidBox {
+  translation -0.15 0.11 0.1
+  name "box(1)"
+  size 0.2 0.2 0.2
+}
+Ball {
+  hidden linearVelocity_0 1.0615959204777875e-08 -9.109992858034873e-14 -4.589990267995887e-17
+  hidden angularVelocity_0 2.7925253140142124e-12 3.254154809650943e-07 2.013282498332866e-21
+  translation 0.40966086619223185 -4.755236461263288e-06 0.032413672000000004
+  rotation -9.656678936440921e-08 -1.580943404826375e-08 0.9999999999999951 2.817003853564716
+  name "ball(1)"
+}
+Ball {
+  translation -0.13701648586025397 -0.3612570353336115 0.03241367197961816
+  rotation -0.011252164143532027 -0.006375744724161523 -0.9999163658433137 1.0250934243661725
+}
+SolidBox {
+  translation 0.15 -0.22 0.1
+  rotation 0 1 0 0
+  size 0.2 0.2 0.2
+}
